@@ -74,7 +74,7 @@ public class YouSuck extends AppCompatActivity {
 	public String getRandomImageUrl(){
 		String[] urls = getResources().getStringArray(R.array.urls);
 		Random random = new Random();
-		int ranNum = random.nextInt(urls.length) + 1;
+		int ranNum = random.nextInt(urls.length);
 		return urls[ranNum];
 	}
 
